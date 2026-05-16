@@ -17,6 +17,7 @@ The foundation of the M-CTM is the basic Cell Transmission Model (CTM) developed
 
 Imagine there is a straight road in front of our home. To understand traffic propagation on that road, the Basic CTM represents such a road as a link, and discretises the link into several segments called cells. Such a discretised link is then simulated for a number of timesteps. In each timestep, the traffic enters the link and moves from one cell to the next until it finally exits the link. By using such a simulation, one can then see at which points (or cells) in the link a congestion occurs, the fluctuations of the link outflows, and the travel time of the traffic traversing the link. 
 
+The Basic CTM, however, assumes that the traffic within a link is homogeneous and the road capacity is constant. To model the CAV impact on mixed traffic, which also contains NV, the Basic CTM needs to be modified. The M-CTM is then a modification of the Basic CTM, to accommodate the modelling of mixed traffic consisting of CAV and NV. The model has features, namely multiclass traffic, and dynamic road capacity and wave speed based on the share of CAV on the road.  
 
 ## Outputs:
 
