@@ -20,7 +20,7 @@ Imagine there is a straight road in front of our home. To understand traffic pro
 
 The Basic CTM, however, assumes that the traffic within a link is homogeneous and the road capacity is constant. To model the CAV impact on mixed traffic, which also contains NV, the Basic CTM needs to be modified. The MF-CTM is then a modification of the Basic CTM to accommodate the modelling of mixed traffic consisting of CAV and NV. The model has features, namely, multiclass traffic (CAV and NV), and dynamic road capacity and wave speed based on the share of CAV on the road. Moreover, the model also has a FIFO feature, which prevents the traffic inside the model from having unintended and unrealistic overtaking.
 
-## Codes in the Repo
+## Codes in the Repository:
 The main Python code for adjusting the model parameter and running the simulation is the one named: CTM_Simulation_MClassFIFO_DynamicDemand.py
 
 The other codes are functions to support the main code. These include:
