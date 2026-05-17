@@ -23,8 +23,8 @@ The Basic CTM, however, assumes that the traffic within a link is homogeneous an
 ## Outputs:
 1. Heatmap showing cell occupancy or the number of vehicles within a cell, for each cell at each timestep
 2. Heatmap showing CAV proportion within a cell, for each cell at each timestep
-3. Curve showing cumulative traffic inflows to and outflows from the road link model
-4. Curve showing link outflow rate
+3. Line plot showing cumulative traffic inflows to and outflows from the road link model
+4. Line plot showing link outflow rate
 5. Bubble plot showing link travel time of each traffic packet (cohort) as well as CAV proportion in each cohort
      
 ## Limitations:
