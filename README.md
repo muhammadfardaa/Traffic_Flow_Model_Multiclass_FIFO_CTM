@@ -39,8 +39,8 @@ The other codes are functions to support the main code. These include:
 6. ctm_step_3a_function_FullFIFO.py
 
 ## Bonus R Codes
-This repository also contains the R codes for the mixed cell transmission model by [Qin and Wang, 2019](https://ascelibrary.org/doi/abs/10.1061/JTEPBS.0000238), which I developed during the 1st year of my PhD study for learning purposes. The file name is as follows:
-- Mixed_CRM_QinWAng_Codes.R
+This repository also contains the R code for the mixed cell transmission model. I developed this code during the 1st year of my PhD study, based on the concept and mathematical formulas by [Qin and Wang, 2019](https://ascelibrary.org/doi/abs/10.1061/JTEPBS.0000238). The R file name is as follows:
+- Mixed_CTM_QinWAng_Codes.R
 
 ## Outputs:
 1. Heatmap showing cell occupancy or the number of vehicles within a cell, for each cell at each timestep
