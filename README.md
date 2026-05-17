@@ -20,6 +20,11 @@ Imagine there is a straight road in front of our home. To understand traffic pro
 
 The Basic CTM, however, assumes that the traffic within a link is homogeneous and the road capacity is constant. To model the CAV impact on mixed traffic, which also contains NV, the Basic CTM needs to be modified. The MF-CTM is then a modification of the Basic CTM to accommodate the modelling of mixed traffic consisting of CAV and NV. The model has features, namely, multiclass traffic (CAV and NV), and dynamic road capacity and wave speed based on the share of CAV on the road. Moreover, the model also has a FIFO feature, which prevents the traffic inside the model from having unintended and unrealistic overtaking.
 
+Past works that provide foundations for the development of MF-CTM are as follows:
+[Bar-Gera and Carey, 2022](https://www.sciencedirect.com/science/article/abs/pii/S0191261522000571)
+[Qin and Wang, 2019](https://ascelibrary.org/doi/abs/10.1061/JTEPBS.0000238)
+[Levin and Boyles, 2016](https://www.sciencedirect.com/science/article/abs/pii/S0968090X1500354X)
+
 You can see a more detailed description of the model in the paper that I uploaded to this repo :D
 
 ## Codes in the Repository:
@@ -32,6 +37,9 @@ The other codes are functions to support the main code. These include:
 4. ctm_step_2_function_FullFIFO.py
 5. ctm_step_3a_function_FullFIFO.py
 6. ctm_step_3a_function_FullFIFO.py
+
+Bonus: R codes for the cell transmission model by [Qin and Wang, 2019](https://ascelibrary.org/doi/abs/10.1061/JTEPBS.0000238), which I developed during the 1st year of my PhD study for learning purposes. The file name is as follows:
+
 
 ## Outputs:
 1. Heatmap showing cell occupancy or the number of vehicles within a cell, for each cell at each timestep
