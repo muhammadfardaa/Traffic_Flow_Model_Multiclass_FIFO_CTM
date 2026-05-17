@@ -29,3 +29,4 @@ The Basic CTM, however, assumes that the traffic within a link is homogeneous an
      
 ## Limitations:
 The code is only for simulating a single one-lane link. More codes are needed to extend the model to represent merging, diverging, network, multiple lanes, and other road network components. 
+I have been developing the codes for merging, diverging, and network to fulfil the 2nd and 3rd objectives of my study. Let me know if you are interested in those codes :D
