@@ -51,4 +51,4 @@ This repository also contains the R code for the mixed cell transmission model. 
      
 ## Limitations:
 The code is only for simulating a single one-lane link. More codes are needed to extend the model to represent merging, diverging, network, multiple lanes, and other road network components. 
-I have been developing the codes for merging, diverging, and network to fulfil the 2nd and 3rd objectives of my study. Let me know if you are interested in those codes :D
+I have been developing the codes for merging, diverging, and network to fulfil the 2nd and 3rd objectives of my PhD study. Let me know if you are interested in those codes :D
