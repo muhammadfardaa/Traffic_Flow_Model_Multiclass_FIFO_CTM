@@ -10,6 +10,7 @@ In the future, CAVs will likely coexist with NVs on the road; therefore, a model
 The codes included in this repository are based on two publications, namely:
 
 1.[Levin and Boyles, 2016](https://www.sciencedirect.com/science/article/pii/S0968090X1500354X)
+
 2.[Qin and Wang, 2019](https://ascelibrary.org/doi/abs/10.1061/JTEPBS.0000238)
 
 I have uploaded the publications above to this repository, in case you want to know more about them. 
