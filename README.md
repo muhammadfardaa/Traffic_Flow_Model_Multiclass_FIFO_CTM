@@ -26,19 +26,23 @@ Imagine there is a straight road in front of our home. To understand traffic pro
 The Basic CTM, however, assumes that the traffic within a link is homogeneous and the road capacity is constant. To model the CAV impact on mixed traffic, which also contains NV, the Basic CTM needs to be modified. The M-CTM is then a modification of the Basic CTM to accommodate the modelling of mixed traffic. As its name implies, the model disaggregates the traffic within it into connected autonomous vehicles (CAV) and normal vehicles (NV). The model also adjusts the road capacity based on the CAV share in the traffic. As CAV can communicate and travel closer together, a higher share of CAV also means higher road capacity. 
 
 ## Codes in the Repository:
-The main Python code for adjusting the model parameter and running the simulation is the one named: CTM_Simulation_MClassFIFO_DynamicDemand.py
+The codes for each M-CTM model are enlisted below
 
-The other codes are functions to support the main code. These include:
-1. ctm_step_0_function_FullFIFO.py
-2. ctm_step_1_function_FullFIFO.py
-3. ctm_step_2_function_FullFIFO.py
-4. ctm_step_2_function_FullFIFO.py
-5. ctm_step_3a_function_FullFIFO.py
-6. ctm_step_3a_function_FullFIFO.py
+### Model 1 (by Levin and Boyles, 2016)
+Programming language: Python
+Main simulation file:
+1. CTM_Simulation_MClass_DynamicDemand.py 
 
-## Bonus R Codes
-This repository also contains the R code for the mixed cell transmission model. I developed this code during the 1st year of my PhD study, for learning purposes before I developed my own model. The code is based on the concept and mathematical formulas by [Qin and Wang, 2019](https://ascelibrary.org/doi/abs/10.1061/JTEPBS.0000238). The R file name is as follows:
-- Mixed_CTM_QinWang_Codes.R
+Supporting functions:
+1. ctm_step_0_function_MClass.py
+2. ctm_step_1_function_MClass.py
+3. ctm_step_2_function_MClass.py
+4. ctm_step_3_function_MClass.py
+
+### Model 2 (Qin and Wang, 2019)
+Programming language: R
+Main simulation file:
+1. Mixed_CTM_QinWang_Codes.R
 
 ## Outputs:
 1. Heatmap showing cell occupancy or the number of vehicles within a cell, for each cell at each timestep
