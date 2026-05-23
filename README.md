@@ -30,6 +30,7 @@ The codes for each M-CTM model are listed below
 
 ### Model 1 (by Levin and Boyles, 2016)
 Programming language: Python
+
 Main simulation file:
 1. CTM_Simulation_MClass_DynamicDemand.py 
 
@@ -41,6 +42,7 @@ Supporting functions:
 
 ### Model 2 (Qin and Wang, 2019)
 Programming language: R
+
 Main simulation file:
 1. Mixed_CTM_QinWang_Codes.R
 
