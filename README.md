@@ -1,4 +1,4 @@
-# Title: Multiclass Cell Transmission Model Code - A Tool to Model Traffic Flow Propagation Consisting of Connected Autonomous Vehicles (CAV) and Normal Vehicles (NV)
+# Title: Multiclass Cell Transmission Model Code - A Tool to Model Traffic Flow Propagation On the Road, Consisting of Connected Autonomous Vehicles (CAV) and Normal Vehicles (NV)
 
 ## Programming Language Used: Python and R
 
