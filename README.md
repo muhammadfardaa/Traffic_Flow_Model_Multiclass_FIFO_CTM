@@ -7,7 +7,7 @@ The Multiclass Cell Transmission Model (M-CTM) is a tool for modelling traffic f
 
 In the future, CAVs will likely coexist with NVs on the road; therefore, a model is needed to assess different CAV penetration levels. M-CTM can be an alternative approach for this purpose, as it can examine the impact of CAVs on traffic flow propagation and congestion (measured by queue length, queue dissipation time, travel time, delay, and speed) across different CAV penetration levels (0% to 100%). MF-CTM is particularly relevant for researchers and practitioners in the area of traffic flow theory and modelling.
 
-The codes included in this repository are based on two publications, namely:
+The codes included in this repository are based on two publications on M-CTM, namely:
 
 1. [Levin and Boyles, 2016](https://www.sciencedirect.com/science/article/pii/S0968090X1500354X)
 
