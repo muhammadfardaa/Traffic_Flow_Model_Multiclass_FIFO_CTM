@@ -53,5 +53,5 @@ Main simulation file:
 4. Line plot showing link outflow rate
      
 ## Limitations:
-The code is only for simulating a single one-lane link. More codes are needed to extend the model to represent merging, diverging, network, multiple lanes, and other road network components. The two models also do not consider the First-in-First-out (FIFO) principle. This creates potential bias in the simulation output, particularly in terms of unintended or unrealistic overtaking. I have been developing more code to solve such issues for my PhD study. Happy to discuss this further.
+The codes are only for simulating a single one-lane link. More codes are needed to extend the model to represent merging, diverging, network, multiple lanes, and other road network components. The models in the codes also do not consider the First-in-First-out (FIFO) principle. This creates potential bias in the simulation output, particularly in terms of unintended or unrealistic overtaking. I have been developing more code to solve such issues for my PhD study. Happy to discuss this further.
 
